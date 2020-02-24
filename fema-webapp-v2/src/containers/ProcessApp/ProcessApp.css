@@ -1,0 +1,25 @@
+.Column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+  }
+
+  .ColumnFull {
+    float: left;
+    width: 95%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .Row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .Image {
+    height: 50%;
+    width: 50%;
+    padding: 5px;
+  }
+

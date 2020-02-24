@@ -1,0 +1,85 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.NoDisplay {
+  display: none;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.FileUpload {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col25, .col75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
