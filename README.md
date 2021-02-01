@@ -50,7 +50,11 @@ ___
      Our app simulates a simple way of assessing the damage. 
      Affected persons go to our site (mobile or via computer) and will enter basic information 
      (such as name, affected address, number of persons affected, ID from homeowners 
-     such as social security or driver’s license, if the person has home insurance or not, etc). From there, the app will be able to be reviewed by surveyors from FEMA with an already madge estimate created from before and after home data. This process is to estimate funds needed from the U.S government. A complete estimation will be done by in-person surveyors assigned by FEMA to ensure thoroughness.
+     such as social security or driver’s license, if the person has home insurance or not, etc). 
+     From there, the app will be able to be reviewed by surveyors from FEMA with an already 
+     madge estimate created from before and after home data. This process is to estimate funds 
+     needed from the U.S government. A complete estimation will be done by in-person surveyors 
+     assigned by FEMA to ensure thoroughness.
 
     
 ---
